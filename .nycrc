@@ -1,0 +1,23 @@
+{
+  "check-coverage": true,
+  "per-file": true,
+  "lines": 95,
+  "statements": 95,
+  "functions": 95,
+  "branches": 95,
+  "include": [
+    "utils/**/*.js"
+  ],
+  "exclude": [
+    "test/**/*.test.js"
+  ],
+  "reporter": [
+    "lcov",
+    "text"
+  ],
+  "extension": [
+    ".js"
+  ],
+  "cache": false,
+  "all": false
+}

@@ -1,0 +1,27 @@
+{
+  "name": "event-organizer",
+  "version": "1.0.0",
+  "description": "A Node.js ES6 based application that reads the activities from a file and allocates the activies per team so that it can meet the pre requisites.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --harmony app.js ./data/activities.txt",
+    "start:debug": "DEBUG=true node --harmony app.js ./data/activities.txt",
+    "lint": "./node_modules/.bin/eslint --config .eslintrc.json --format table --ext .js,.mjs --fix .",
+    "test": "./node_modules/mocha/bin/mocha",
+    "test:coverage": "./node_modules/nyc/bin/nyc.js ./node_modules/mocha/bin/mocha"
+  },
+  "author": "Naveen Venkat",
+  "license": "ISC",
+  "engines": {
+    "node": ">=10"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.0.1",
+    "eslint-plugin-harmony": "^1.0.4",
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.1",
+    "pino": "^5.12.6"
+  }
+}
