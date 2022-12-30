@@ -20,7 +20,7 @@
     "chai": "^4.2.0",
     "eslint": "^6.0.1",
     "eslint-plugin-harmony": "^1.0.4",
-    "mocha": "^6.1.4",
+    "mocha": "^10.2.0",
     "nyc": "^14.1.1",
     "pino": "^5.12.6"
   }
